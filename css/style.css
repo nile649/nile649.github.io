@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700|Open+Sans:300,400,600');
+body{
+	color: #4801FF;
+	background: linear-gradient(-225deg, #AC32E4 0%, #7918F2 48%, #4801FF 100%);
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	position: relative;
+}
+h1,h2,h3,h4,h5{font-family: 'Poppins', sans-serif;line-height: 1.65;}
+.main{
+  cursor: default;
+  left: 10%;
+  line-height: 1;
+  position: absolute;
+  top: 50%;
+  transform: translateX(0%) translateY(-50%);
+  user-select: none;
+  width: 80%;
+}
+h1.title{
+	line-height: 1.65;
+	text-transform: none;
+	font-weight: 700;
+	font-size: calc(3vw + 10px);
+	font-family: 'Poppins', sans-serif;
+	text-align: left
+}
+h2.title{
+	text-transform: none;
+	font-size: calc(1.5vw + 10px);
+	font-weight: 700;
+	font-family: 'Poppins', sans-serif;
+}
+.intro-text{
+	text-transform: uppercase
+}
+.intro-text::before{
+	display: block;
+	content:'';
+	width:50px;
+	height:2px; 
+	background:#fff;
+	float: left;
+    margin-top: 10px;
+    margin-right: 20px;}
+.color-text label{  
+	color: rgb(250, 139, 255);
+    background: linear-gradient(45deg, rgb(250, 139, 255) 0%, rgb(43, 210, 255) 52%, rgb(43, 255, 136) 90%);
+    -webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+  	margin-bottom: 0;
+}
+.color-text{
+    background: rgba(33, 33,33,0.6);
+    padding-left: 5px;padding-right: 5px
+}
+
+.text{
+	text-transform: none;
+	font-family: 'Open Sans', sans-serif;
+	letter-spacing: 1px;
+	line-height: 1.4;
+	text-align: justify;
+	font-weight:400;
+	font-size: 18px;
+}
+.college-img{
+	width: auto;
+	float: left;
+}
+.panel__nav--left,
+.panel__nav--right,
+.panel__nav--down,.panel__nav{
+	text-transform: uppercase
+}
+.about-text{
+	text-transform: none;
+}
+.about-text i:before{
+	font-size:1.75rem ;
+	margin: auto;
+}
+.courses{text-align: center}
+.courses i:before{
+	font-size: calc(3vw + 10px);
+	margin: auto;
+}
+.courses>div div{
+	font-size: 18px;letter-spacing: 0;
+	margin-top: 10px;transition: 0.5s all;
+	color: rgb(250, 139, 255);
+	background: linear-gradient(45deg, rgb(250, 139, 255) 0%, rgb(43, 210, 255) 52%, rgb(43, 255, 136) 90%);
+    -webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+}
+.courses>div{
+	padding: 10px;
+	background: rgba(33,33,33,0.8);
+	margin: 1px;
+	width: 200px;
+	height: 200px;
+	float: left;
+	transition: all 0.3s;
+
+}
+.courses>div i{line-height: 200px}
+.courses>div div{position: relative;top:-250px;opacity: 0}
+.courses>div:hover{cursor: pointer;background:rgba(255,255,255,1);}
+.courses>div:hover div{
+	opacity: 1;top: -215px;
+}
+.courses>div:hover i:before{
+	color: rgb(250, 139, 255);
+	background: linear-gradient(45deg, rgb(250, 139, 255) 0%, rgb(43, 210, 255) 52%, rgb(43, 255, 136) 90%);
+    -webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+}
+.languages{list-style: none;padding-left: 0}
+.languages li:before{
+	display: block;
+	content:'';
+	width:10px;
+	height:2px; 
+	background:#fff;
+	float: left;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.languages label{letter-spacing: 0;}
+.languages li{
+	text-transform: uppercase;font-weight: 700;
+	margin-bottom: 10px;
+}
+#project-container{
+	display: flex;
+  flex-wrap: nowrap;
+  overflow: hidden;
+  transition: all 0.5s;
+}
+.project-wrapper{
+	width: 100%;
+}
+.project{
+	width: 30%;
+	background: rgba(33,33,33,0.8);
+	padding: 15px;
+	float: left;
+	margin-right: 10px;
+	 flex: 0 0 auto;
+}
+.project .icon{
+	width: 100%;text-align: center;
+	margin-top: 10vh;margin-bottom: 10vh;
+}
+.project .icon i:before{font-size:calc(5vw + 10px);margin:0 auto;}
+.project .date{
+	letter-spacing: 0;
+	position: absolute;
+    font-size: 1rem;
+}
+.project .date label{
+	font-size: 1.5rem;
+    text-transform: uppercase;
+}
+.project h3{
+	line-height: 1;
+	letter-spacing:0;
+	font-weight: bold;
+}
+.project h3,.project .icon,.project .date,.project .date label,.project{transition:all 0.3s;}
+.project:hover{cursor: pointer;background:#fff;}
+.project:hover h3,.project:hover .icon,.project:hover .date,.project:hover .date label{
+	cursor: pointer;color:rgb(250, 139, 255);
+	background: linear-gradient(45deg, rgb(250, 139, 255) 0%, rgb(43, 210, 255) 52%, rgb(43, 255, 136) 90%);
+    -webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+}
+.arrow{
+	width:50px;
+	float: left;
+	margin-top: 20px;
+	text-align: right;
+	transition: all 0.3s
+}
+.arrow.left{text-align: left;margin-right:30px;margin-left:30px;}
+.arrow.left:before{margin-left:5px;}
+.arrow:before{
+	display: block;
+	content: '';
+	width: 0px;
+	height: 2px;
+	background: #fff;
+	position: absolute;
+	margin-top: 13px;
+	transition: all 0.3s;
+}
+.arrow.right:hover{cursor: pointer;
+transform:translateX(10px);}
+.arrow.left:hover{cursor: pointer;
+transform:translateX(-10px);}
+
+.arrow:hover:before{
+	width: 42px;
+}
+.arrow.left:hover:before{
+	width: 42px;
+}
+.info{
+	position: absolute;top: 0;left: 0;z-index: 9;
+}
+.info>div{
+	width: 50vw;float: left;
+	height: 100vh;
+	overflow-y: auto;
+	opacity: 0;
+	display: none;
+	transition: all 0.5s;
+}
+.info>div.img{background: #333;text-align: center;overflow:hidden;transform:translateX(-100%);}
+.info>div.img i:before{font-size:20vh;margin-left:0;line-height: 100vh;}
+.info>div.text{background: #fff;padding:5vh 35px;transform:translateX(100%);}
+.arrow.back{
+	margin-left: 10px;margin-top: 30px;
+	position: absolute;
+	text-align: left;
+}
+.arrow.back:hover{cursor:pointer;transform:translateX(-10px);}
+.arrow.back:before{margin-left:5px;}
+.info>div.text h2.title,.info>div.text p{color:#333;}
+.info>div.text p{letter-spacing: 0;padding-top:20px;}
+.info>div.text h2.title:after{
+	display: block;content: ' ';width: 100px;height: 4px;background: #333;
+}
+.arrow-head{display: none}
+
+
+
+
+
+
+@media(max-width:1400px){
+	.text{font-size:14px;}
+	.college-img{width:30%;}
+	.courses>div{width:150px;height:150px;}
+	.courses>div i{line-height: 150px}
+	.courses>div div{font-size:14px;top:-190px;}
+	.courses>div:hover div{top:-160px;}
+	.project{width:40%;}
+}
+
+@media(max-width:601px){
+	body{font-size:14px;}
+	h1.title{font-size:calc(6vw + 10px);text-align: center}
+	h2.title{font-size:calc(1vw + 10px);text-align: center}
+	.main{width:80%;left:10%;}
+	h3,.about-text i:before{font-size:0.9rem;}
+	.panel:nth-child(2) .main{left:5%;width:83%;}
+	.college-img{width:50%;float: left;height: auto}
+	.intro-text{letter-spacing: 0;line-height: 1.4}
+	.text{letter-spacing: 0}
+
+	.courses i:before{font-size:calc(4vh + 10px);}
+	.courses>div:nth-child(4),.courses>div:nth-child(6),.courses>div:nth-child(8){margin-left: 15px;}
+	.courses>div div{top:-150px;opacity: 1;}
+	.courses>div:hover div,.courses>div:hover i:before{
+		color: #333;
+		background: linear-gradient(45deg, rgb(250, 139, 255) 0%, rgb(43, 210, 255) 52%, rgb(43, 255, 136) 90%);
+	    -webkit-background-clip: text;
+	  	-webkit-text-fill-color: transparent;
+    }
+	.panel__nav--left{left:0.5rem;}
+	.panel__nav--right{right:0.5rem;}
+
+	.project-container{margin-top:20px;}
+	.arrow.left{margin-left:30%;}
+	.project{width:calc(100% - 0px);margin-right: 0;}
+	.project .date{font-size:0.9rem;}
+	.project .date label{font-size:1.2rem;}
+	.project .icon i:before{font-size:calc(10vh + 10px);}
+	.project h3{font-size:1.2rem;}
+
+	.info{position: fixed;width:100%;height:100%;overflow-y: scroll;display: none}
+	.info>div.img,.info>div.text{width:100%;}
+	.info h2.title{font-size: calc(3vh);text-align: left;}
+	.arrow-head{display: block;}
+}
+
+@media(max-width:380px){
+	.courses>div:nth-child(4), .courses>div:nth-child(6), .courses>div:nth-child(8){margin-left: 0}
+	.courses>div{width:140px;height:140px;}
+	.courses>div div{top:-150px;opacity: 1;color:#fff;-webkit-text-fill-color:unset;}
+}
+
+.btn{
+	border: 1px solid #333;
+	color: #333;
+	transition: all 0.3s;
+}
+.btn a{text-decoration: none;color:#333;}
+.btn i:before{margin-left: 0}
+.btn:hover{
+	cursor: pointer;
+	background: #333;
+	color: #fff;
+}
+.btn:hover a{color:#fff;}
