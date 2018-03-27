@@ -1,6 +1,6 @@
 	/*
   	Flaticon icon font: Flaticon
-  	Creation date: 27/03/2018 08:11
+  	Creation date: 27/03/2018 08:54
   	*/
 
 @font-face {
@@ -29,19 +29,20 @@ font-style: normal;
 margin-left: 20px;
 }
 
-.flaticon-industrial-robot:before { content: "\f100"; }
-.flaticon-targeting:before { content: "\f101"; }
-.flaticon-eye:before { content: "\f102"; }
-.flaticon-motivation:before { content: "\f103"; }
-.flaticon-artificial-intelligence:before { content: "\f104"; }
-.flaticon-smart-home:before { content: "\f105"; }
-.flaticon-algorithm:before { content: "\f106"; }
-.flaticon-monitor:before { content: "\f107"; }
-.flaticon-develop:before { content: "\f108"; }
-.flaticon-github-logo:before { content: "\f109"; }
-.flaticon-flow-chart:before { content: "\f10a"; }
-.flaticon-donation:before { content: "\f10b"; }
-.flaticon-control-panel:before { content: "\f10c"; }
-.flaticon-parking:before { content: "\f10d"; }
-.flaticon-twitter:before { content: "\f10e"; }
-.flaticon-picture:before { content: "\f10f"; }
+.flaticon-arrows:before { content: "\f100"; }
+.flaticon-industrial-robot:before { content: "\f101"; }
+.flaticon-targeting:before { content: "\f102"; }
+.flaticon-eye:before { content: "\f103"; }
+.flaticon-motivation:before { content: "\f104"; }
+.flaticon-artificial-intelligence:before { content: "\f105"; }
+.flaticon-smart-home:before { content: "\f106"; }
+.flaticon-algorithm:before { content: "\f107"; }
+.flaticon-monitor:before { content: "\f108"; }
+.flaticon-develop:before { content: "\f109"; }
+.flaticon-github-logo:before { content: "\f10a"; }
+.flaticon-flow-chart:before { content: "\f10b"; }
+.flaticon-donation:before { content: "\f10c"; }
+.flaticon-control-panel:before { content: "\f10d"; }
+.flaticon-parking:before { content: "\f10e"; }
+.flaticon-twitter:before { content: "\f10f"; }
+.flaticon-picture:before { content: "\f110"; }
